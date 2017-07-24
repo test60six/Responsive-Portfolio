@@ -239,11 +239,22 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 980px) {
+
+  .sidebar {
+  float: right;
+  width: 100%;
+  max-width:280px;
+  padding: 30px;
+  margin-bottom: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
  
 #logo {
+ 
   float: left;
-  width: 980px;
-  height: 90px;
+  width: 250px;
+  height: 89.9px;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 30px;
   font-weight: 700;
@@ -257,7 +268,7 @@ input[type=submit] {
 
   .container {
   width: 100%;
-  max-width: 980px;
+  max-width:;
   margin: 0 auto;
   clear: both;
 }
@@ -267,10 +278,10 @@ input[type=submit] {
 }
 
 #masthead {
-  position:static;
+  position: fixed;
   z-index: 99;
   width: 100%;
-  margin: 0 0 30px;
+  margin:0 0 30px;
   overflow: auto;
   color: #fff;
   background: #fff;
@@ -279,16 +290,17 @@ input[type=submit] {
 
 
 
+
 nav {
-  float:;
+  float: right;
   margin-top: 25px;
 }
 
 nav a {
-  clear:both;
-  display:inline-block;
+  display: inline-block;
+  padding-right:35px;
   padding-left: 15px;
-  margin-left: 15px;
+  margin-left:15px;
   line-height: 18px;
   color: #999;
   text-decoration: none;
@@ -296,18 +308,28 @@ nav a {
 }
 
 nav a:first-child {
+
   border-left: 0 none;
 
 }
 }
 
+@media screen and (max-width:768px){
 
-@media screen and (max-width:760px){
+  .sidebar {
+  float: right;
+  width: 100%;
+  max-width: 768px;
+  padding: 30px;
+  margin-bottom: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
    
   #logo {
   float: left;
-  width: 250px;
-  height: 90px;
+  width: 768px;
+  height: 89.9px;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 30px;
   font-weight: 700;
@@ -320,7 +342,7 @@ nav a:first-child {
 
  .container {
   width: 100%;
-  max-width: 760px;
+  max-width: 768px;
   margin: 0 auto;
   clear: both;
 }
@@ -330,10 +352,12 @@ nav a:first-child {
 }
 
 #masthead {
-  position:static;
+  text-align:center;
+  position: static;
   z-index: 99;
-  width: 100%;
-  margin: 0 0 30px;
+  width: 768px;
+  height: 89.9px
+  margin:0;
   overflow: auto;
   color: #fff;
   background: #fff;
@@ -342,7 +366,10 @@ nav a:first-child {
 
 
 nav {
-  float:;
+  width:768px;
+  height:89.9;
+  text-align:center;
+  float:right;
   margin-top: 25px;
 }
 
@@ -365,6 +392,15 @@ nav a:first-child {
 
 @media screen and (max-width: 640px) {
   
+  .sidebar {
+  float: right;
+  width: 100%;
+  max-width: 640px;
+  padding: 30px;
+  margin-bottom: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
   #logo {
   position: static;
   float: left;
