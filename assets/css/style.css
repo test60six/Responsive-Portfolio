@@ -238,7 +238,7 @@ input[type=submit] {
   border: 0 none;
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (min-width:980px){
 
   .sidebar {
   float: right;
@@ -251,7 +251,8 @@ input[type=submit] {
 }
  
 #logo {
- 
+
+  position:static;
   float: left;
   width: 250px;
   height: 89.9px;
@@ -268,7 +269,7 @@ input[type=submit] {
 
   .container {
   width: 100%;
-  max-width:;
+  max-width:980px;
   margin: 0 auto;
   clear: both;
 }
@@ -326,9 +327,10 @@ nav a:first-child {
   border: 1px solid #ddd;
 }
    
-  #logo {
+ #logo {
+ 
   float: left;
-  width: 768px;
+  width: 250px;
   height: 89.9px;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 30px;
@@ -366,17 +368,15 @@ nav a:first-child {
 
 
 nav {
-  width:768px;
-  height:89.9;
-  text-align:center;
-  float:right;
+  float: right;
   margin-top: 25px;
 }
 
 nav a {
-  display:inline-block;
+  display: inline-block;
+  padding-right:35px;
   padding-left: 15px;
-  margin-left: 15px;
+  margin-left:15px;
   line-height: 18px;
   color: #999;
   text-decoration: none;
@@ -384,6 +384,7 @@ nav a {
 }
 
 nav a:first-child {
+
   border-left: 0 none;
 
 }
