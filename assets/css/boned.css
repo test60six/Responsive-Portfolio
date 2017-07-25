@@ -1,0 +1,7 @@
+h1 { color:red; }
+
+@media screen and (max-width: 768px) {
+  /* The body's bg color will be #333 */
+  body {
+    background-color: #333;
+  }

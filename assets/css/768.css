@@ -1,0 +1,85 @@
+@media screen and (max-width:768px){
+
+
+  #connect .social{
+    width:33%;
+    height: 100%;
+    margin-top: 0;
+  }
+
+  .main-section {
+  
+  float: left;
+  width: 100%;
+  max-width:500px;
+  margin: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
+  .sidebar {
+
+  margin-top:22px;
+  float: right;
+  width: 200px;
+  padding: 20px;
+
+  background: #fff;
+  border: 1px solid #ddd;
+}
+   
+ #logo {
+  padding:10px;
+  font-size: 25px;
+}
+
+ .container {
+  width: 100%;
+  max-width: 768px;
+  margin: 0 auto;
+  clear: both;
+}
+
+#main-container {
+  clear: both;
+  overflow: auto;
+  padding-right: 20px;
+}
+
+#masthead {
+  padding-right:50px;
+
+  text-align:center;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  margin: 0 20px 0 20px;
+  overflow: auto;
+  color: #fff;
+  background: #fff;
+  border-bottom: 2px solid #ccc;
+}
+
+
+nav {
+  float: right;
+  margin-top: 25px;
+}
+
+nav a {
+  display: inline-block;
+  padding-right:35px;
+  padding-left: 15px;
+  margin-left:15px;
+  line-height: 18px;
+  color: #999;
+  text-decoration: none;
+  border-left: 1px solid #efefef;
+}
+
+nav a:first-child {
+
+  border-left: 0 none;
+
+}
+}

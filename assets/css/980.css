@@ -1,0 +1,87 @@
+@media screen and (max-width:980px){
+
+  .main-section {
+  
+  float: left;
+  width: 100%;
+  max-width:500px;
+  margin: 22px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+ 
+  .sidebar {
+    margin-top:0;
+    margin:10px;
+    float: right;
+    width: 250px;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+ 
+#logo {
+  margin-left:30px;
+  float: left;
+  width: 250px;
+  height: 90px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 90px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  background: #4aaaa5;
+}
+
+
+
+  .container {
+
+  width:100%;
+  max-width: 980px;
+  
+  margin: 0 auto;
+  clear: both;
+}
+s
+
+#masthead {
+  
+  position:static;
+  z-index: 99;
+  width: 100%;
+  height:93px;
+  margin: 10 10 10 10;
+  overflow: auto;
+  color: #fff;
+  background: #fff;
+  border-bottom: 2px solid #ccc;
+}
+
+
+
+
+nav {
+  padding-right:50px;
+  float: right;
+  margin-top: 25px;
+}
+
+nav a {
+  display: inline-block;
+
+  margin-left:15px;
+  line-height: 18px;
+  color: #999;
+  text-decoration: none;
+  border-left: 1px solid #efefef;
+}
+
+nav a:first-child {
+
+  border-left: 0 none;
+
+}
+}
