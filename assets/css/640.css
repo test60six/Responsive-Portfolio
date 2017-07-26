@@ -2,7 +2,7 @@
 
   
   .sidebar {
-  float: right;
+
   width: 100%;
   max-width: 640px;
   padding: 30px;
@@ -11,7 +11,7 @@
   border: 1px solid #ddd;
 }
   #logo {
-  position: static;
+  position:static;
   float: left;
   width: 640px;
   height: 89.9px;
